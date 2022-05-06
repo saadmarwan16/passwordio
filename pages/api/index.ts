@@ -22,8 +22,6 @@ const generatePassword = (req: NextApiRequest, res: NextApiResponse) => {
     return;
   }
 
-  if (symbols) console.log("There are symbols");
-
   const password = generate({
     length,
     numbers,
